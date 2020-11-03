@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(1, 1, 26);
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 10;
+    font-weight: bold;
+    line-height: 60px;
+    padding: 0;
+}
+
+.stopwatch{
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 25px;
+    width: 100%;
+  }
+
+  .time{
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: 300;
+  }
+
+  .square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 200px;
+    width: 300px;
+    
+    border: 5px solid white;
+    border-radius: 20%;
+  }
+  
+  button{
+    background: transparent;
+    border: none; 
+    padding: 30;
+    cursor: grabbing;
+    background-size: 70px 70px;
+  }
+
+  .controls {
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
+  }
+
+  #playButton{
+    display: block;
+  }
+
+  #pauseButton{
+    display: none;
+  }
+
+  footer{
+      text-align: right;
+      margin-top: 140px;
+      margin-bottom: 0;
+  }

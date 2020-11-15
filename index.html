@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stopwatch</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <title>To-do List</title>
 </head>
-
 <body>
-    <div class="stopwatch">
-        <h1>STOPWATCH</h1>
-        <div class="square">
-            <span class="time">00:00:00</span>
+    <header id="main-header">
+        <div class="header">
+            <h1>To-do List</h1>
+            <form id="form">
+                <input type="text" id="input" placeholder="Type something to do">
+                <button class="btn">Add Task</button>
+            </form>
         </div>
-        <div class="controls">
-            <button>
-                <img id="playButton" src="images/play-button.svg">
-                <img id="pauseButton" src="images/pause-button.svg">
-            </button>
-            <button>
-                <img id="resetButton" src="images/stop-button.svg">
-            </button>
-        </div>
+    </header>
+    <div>   
+        <ul id="list"> 
+           
+        </ul>
     </div>
 
-    <footer>&copy;2020 Victoria Nwokeohuru</footer>
-    <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
